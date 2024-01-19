@@ -1,36 +1,35 @@
 type Social = {
-  label: string;
-  link: string;
-};
+	label: string
+	link: string
+}
 
 type Presentation = {
-  mail: string;
-  title: string;
-  description: string;
-  socials: Social[];
-  profile?: string;
-};
+	mail: string
+	title: string
+	description: string[]
+	socials: Social[]
+	profile?: string
+}
 
 const presentation: Presentation = {
-  mail: "maxencewolff.pro@gmail.com",
-  title: "Hi, I’m Maxence 👋",
-  // profile: "/profile.webp",
-  description:
-    "Bonjour, i'm a *french frontend developer* with over *3 years* of web experience. I am currently working with *NextJS and Typescript*. Outside of work I complete my pokemon card collection and learning TypeScript.",
-  socials: [
-    {
-      label: "X",
-      link: "https://twitter.com/itsstormzz_",
-    },
-    {
-      label: "Bento",
-      link: "https://bento.me/m-wolff",
-    },
-    {
-      label: "Github",
-      link: "https://github.com/MaeWolff",
-    },
-  ],
-};
+	mail: 'tomthanhswe@gmail.com',
+	title: 'Hi, I’m Tom Thanh 🧑‍💻',
+	profile: '/avatar.jpg',
+	description: [
+		"I'm a software engineer with extensive experience in *full-stack development*. I am currently working with *React, Typescript* for frontend primarily, and a variety of tools *(.NET, Nodejs...)* when it comes to backend.",
+		'I am looking into Cloud computing and Machine Learning.',
+		'Previously, I worked at two fintech startups and some freelance projects.',
+	],
+	socials: [
+		{
+			label: 'Linkedin',
+			link: 'https://www.linkedin.com/in/hphuocthanh/',
+		},
+		{
+			label: 'Github',
+			link: 'https://github.com/hphuocthanh',
+		},
+	],
+}
 
-export default presentation;
+export default presentation

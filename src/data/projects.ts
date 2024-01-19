@@ -1,27 +1,33 @@
 export type Project = {
-  title: string;
-  techs: string[];
-  link: string;
-  isComingSoon?: boolean;
-};
+	title: string
+	techs: string[]
+	link: string
+	isComingSoon?: boolean
+}
 
 const projects: Project[] = [
-  {
-    title: "Dictionary App",
-    techs: ["ReactJS (NextJS)", "react-query", "zod"],
-    link: "https://github.com/MaeWolff/dictionary-app",
-  },
-  {
-    title: "Portfolio / Lina BLIDI",
-    techs: ["ReactJS (NextJS)", "TypeScript"],
-    link: "https://www.linablidi.fr/",
-  },
-  {
-    title: "Portfolio / Template",
-    techs: ["Astro"],
-    link: "/",
-    isComingSoon: true,
-  },
-];
+	{
+		title: 'Not your ordinary Bakery / GoBake',
+		techs: ['ReactJS (Vite)', '.NET'],
+		link: '/',
+		isComingSoon: true,
+	},
+	{
+		title: 'Stock Trading / AI Bot',
+		techs: ['Python', 'Data'],
+		link: '/',
+		isComingSoon: true,
+	},
+	{
+		title: 'Reel Editor / Generator',
+		techs: ['NextJS', 'TypeScript', 'NestJS'],
+		link: 'https://github.com/hphuocthanh/video-editor-fe',
+	},
+	{
+		title: 'Instagramme / Clone',
+		techs: ['JavaScript', 'Cypress'],
+		link: 'https://github.com/hphuocthanh/instagram-clone',
+	},
+]
 
-export default projects;
+export default projects
