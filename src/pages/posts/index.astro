@@ -20,7 +20,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
             href={`/posts/${post.slug}`}
           >
             <div class="flex w-full items-center justify-between">
-              <h2 class="text-lg">{post.data.title}</h2>
+              <h2 class="text-xl">{post.data.title}</h2>
 
               <div class="flex flex-row items-center gap-4">
                 <p>{formatDate(post.data.publishedAt)}</p>
