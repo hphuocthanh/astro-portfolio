@@ -1,6 +1,6 @@
 ---
 title: "My React + Vite + AWS Amplify setup"
-publishedAt: 2022-06-10
+publishedAt: 2023-06-10
 description: "How to deploy your React app on AWS Amplify"
 slug: "react-vite-amplify-setup"
 isPublish: true

@@ -1,6 +1,6 @@
 ---
 title: "SQL: From Zero to Hero"
-publishedAt: 2022-06-10
+publishedAt: 2022-08-05
 description: "Learn SQL from scratch"
 slug: "sql-zero-to-hero"
 isPublish: false
