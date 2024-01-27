@@ -1,6 +1,6 @@
 ---
 title: "Another rant about React useContext, Redux Toolkit and Zustand"
-publishedAt: 2021-03-24
+publishedAt: 2022-03-24
 description: "State management is annoying, even when selecting the right tool for it."
 slug: "react-state-management-ranting"
 isPublish: true
