@@ -16,9 +16,9 @@ const presentation: Presentation = {
 	title: 'Hi, I’m Tom Thanh 🧑‍💻',
 	profile: '/avatar.jpg',
 	description: [
-		"I'm a software engineer with 1+ years of experience in *full-stack development*. I am currently working with *React, Typescript* for frontend primarily, and a variety of tools *(.NET, Nodejs...)* when it comes to backend.",
+		"I'm a software engineer with *1+* years of experience in *full-stack development* ( *React, Typescript, NodeJs, .NET..* ) .",
+		'I have worked at startups and some freelance/contract projects. I also work as a research assistant and lab demonstrator for programming classes at UOW, Aus.',
 		'I am looking into Cloud computing.',
-		'Previously, I worked at two fintech startups and some freelance projects.',
 	],
 	socials: [
 		{
