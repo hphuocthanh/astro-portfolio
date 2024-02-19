@@ -14,8 +14,7 @@ const projects: Project[] = [
 	{
 		title: 'Stock Trading / AI Bot',
 		techs: ['Python', 'Data'],
-		link: '/',
-		isComingSoon: true,
+		link: 'https://github.com/hphuocthanh/stock-trading-analysis',
 	},
 	{
 		title: 'Reel Editor / Generator',
